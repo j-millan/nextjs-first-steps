@@ -1,0 +1,32 @@
+.navbar {
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box;
+  
+  display: flex;
+  column-gap: 15px;
+  align-items: baseline;
+
+  background-color: #0e1f41;
+  border-radius: 5px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.homeItem {
+  display: flex;
+  column-gap: 7px;
+  align-items: center;
+  
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  transition: color 0.2s linear;
+}
+
+
+.homeItem:hover {
+  color: #c2c2c2;
+}
